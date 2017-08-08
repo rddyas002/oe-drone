@@ -9,8 +9,14 @@ Here is the directory structure using the poky project as a base:
 |------ poky-morty  
 |-- dl  
 
-Clone poky repository (morty branch):
-```reddi@reddi-spaceteq:~/work$ git clone -b morty git://git.yoctoproject.org/poky.git poky-morty```
+## Clone poky repository (morty branch):
+```
+git clone -b morty git://git.yoctoproject.org/poky.git poky-morty
+cd poky-morty
+git clone -b morty git://git.openembedded.org/meta-openembedded
+git clone https://github.com/beagleboard/meta-beagleboard.git
+git clone -b morty git://git.yoctoproject.org/meta-ti
+```
 
 ## References:  
 1. http://www.thelins.se/johan/blog/2014/06/yocto-part-iii-a-custom-meta-layer/
