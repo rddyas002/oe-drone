@@ -17,7 +17,6 @@ EXTRA_TOOLS_INSTALL = " \
 
 KERNEL_EXTRA_INSTALL = " \
     kernel-modules \
-    load-modules \
     kernel-devicetree \
 "
 
